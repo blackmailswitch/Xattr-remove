@@ -1,4 +1,8 @@
-# Xattr-remove
+# Xattr-remove: quitar com.apple.quarantine y auto-firmar la aplicación (opcional)
+
+![Platform](https://img.shields.io/badge/macOS-13.5+-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-5+-green.svg)
+![Xcode](https://img.shields.io/badge/Xcode-14-lavender.svg)
 
 <a href="README.md">
     <img src="https://img.shields.io/badge/README-Inglés-blue" alt=“README inglés”>

@@ -1,4 +1,8 @@
-# Xattr-remove
+# Xattr-remove: clear com.apple.quarantine and re-sign app bundle (optional)
+
+![Platform](https://img.shields.io/badge/macOS-13.5+-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-5+-green.svg)
+![Xcode](https://img.shields.io/badge/Xcode-14-lavender.svg)
 
 <a href="README-ES.md">
     <img src="https://img.shields.io/badge/Spanish-README-blue" alt=“Spanish README”>
