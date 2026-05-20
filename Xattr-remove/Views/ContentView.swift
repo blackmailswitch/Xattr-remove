@@ -11,7 +11,10 @@ import os.log
 
 struct ContentView: View {
     @State private var isTargeted = false
-    @AppStorage("resign_after_processing") private var shouldResignAfterProcessing = false
+    // Re-sign option saved between runs
+//    @AppStorage("resign_after_processing") private var shouldResignAfterProcessing = false
+    //  Re-sign option always false at run
+    @State private var shouldResignAfterProcessing = false
     @EnvironmentObject var fileProcessor: FileProcessor
     
     // Logger for UI events
