@@ -9,6 +9,10 @@ on:
   pull_request:
     branches: [ "main" ]
 
+# Aici am adăugat variabila pentru întregul workflow
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
 jobs:
   build:
 
@@ -17,6 +21,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build
-      run: swift build -v FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
+      run: swift build -v
     - name: Run tests
       run: swift test -v
