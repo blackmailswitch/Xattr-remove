@@ -17,6 +17,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build
-      run: swift build -v
+      run: swift build -v FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
     - name: Run tests
       run: swift test -v
